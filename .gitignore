@@ -1,0 +1,3 @@
+.gates/
+__pycache__/
+*.pyc

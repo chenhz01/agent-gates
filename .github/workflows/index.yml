@@ -1,0 +1,16 @@
+name: index
+on: [push, pull_request]
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: list gates
+        run: python fetch.py --list
+      - name: fetch one gate
+        run: python fetch.py loop-gate
+      - name: it runs
+        run: python .gates/loop-gate/gate.py --help
