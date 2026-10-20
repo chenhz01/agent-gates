@@ -7,6 +7,7 @@
 <p align="center"><b>14 gates that stop AI-agent failures before they ship — one file each, zero dependencies.</b></p>
 
 <p align="center">
+<a href="https://github.com/chenhz01/agent-gates/actions/workflows/index.yml"><img src="https://github.com/chenhz01/agent-gates/actions/workflows/index.yml/badge.svg" alt="tests"></a>
 <img src="https://img.shields.io/badge/gates-14-2ea44f?style=flat-square" alt="gates">
 <img src="https://img.shields.io/badge/dependencies-0-2ea44f?style=flat-square" alt="deps">
 <img src="https://img.shields.io/badge/python-3.9%2B-3776AB?style=flat-square" alt="python">
